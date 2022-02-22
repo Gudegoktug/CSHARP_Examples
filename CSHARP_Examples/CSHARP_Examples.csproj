@@ -72,6 +72,24 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Switch_Case\Gunler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Switch_Case\Gunler.Designer.cs">
+      <DependentUpon>Gunler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Switch_Case\DortIslem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Switch_Case\DortIslem.Designer.cs">
+      <DependentUpon>DortIslem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Switch_Case\Reyon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Switch_Case\Reyon.Designer.cs">
+      <DependentUpon>Reyon.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="If_Else\AdminGiris.resx">
       <DependentUpon>AdminGiris.cs</DependentUpon>
     </EmbeddedResource>
@@ -90,6 +108,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Switch_Case\Gunler.resx">
+      <DependentUpon>Gunler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Switch_Case\DortIslem.resx">
+      <DependentUpon>DortIslem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Switch_Case\Reyon.resx">
+      <DependentUpon>Reyon.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -103,5 +130,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

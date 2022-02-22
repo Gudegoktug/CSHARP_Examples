@@ -1,4 +1,5 @@
 ﻿using CSHARP_Examples.If_Else;
+using CSHARP_Examples.Switch_Case;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +18,7 @@ namespace CSHARP_Examples
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new BuyukSayiBulma());
+            Application.Run(new Reyon());
         }
     }
 }
