@@ -52,6 +52,12 @@
     <Compile Include="Dice_Game\Simple_Dice_Game.Designer.cs">
       <DependentUpon>Simple_Dice_Game.cs</DependentUpon>
     </Compile>
+    <Compile Include="Foreach_Loop\Foreach_.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Foreach_Loop\Foreach_.Designer.cs">
+      <DependentUpon>Foreach_.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +122,9 @@
     </Compile>
     <EmbeddedResource Include="Dice_Game\Simple_Dice_Game.resx">
       <DependentUpon>Simple_Dice_Game.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Foreach_Loop\Foreach_.resx">
+      <DependentUpon>Foreach_.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="For_Loop\bolunebilen.resx">
       <DependentUpon>bolunebilen.cs</DependentUpon>

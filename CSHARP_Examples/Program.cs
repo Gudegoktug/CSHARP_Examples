@@ -1,5 +1,6 @@
 ﻿using CSHARP_Examples.Dice_Game;
 using CSHARP_Examples.For_Loop;
+using CSHARP_Examples.Foreach;
 using CSHARP_Examples.If_Else;
 using CSHARP_Examples.Switch_Case;
 using CSHARP_Examples.Try_Catch;
@@ -21,7 +22,7 @@ namespace CSHARP_Examples
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Simple_Dice_Game());
+            Application.Run(new Foreach_());
         }
     }
 }
