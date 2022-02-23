@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dice_Game\Simple_Dice_Game.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dice_Game\Simple_Dice_Game.Designer.cs">
+      <DependentUpon>Simple_Dice_Game.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +108,15 @@
     <Compile Include="Switch_Case\Reyon.Designer.cs">
       <DependentUpon>Reyon.cs</DependentUpon>
     </Compile>
+    <Compile Include="Try_Catch\Toplama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Try_Catch\Toplama.Designer.cs">
+      <DependentUpon>Toplama.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Dice_Game\Simple_Dice_Game.resx">
+      <DependentUpon>Simple_Dice_Game.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="For_Loop\bolunebilen.resx">
       <DependentUpon>bolunebilen.cs</DependentUpon>
     </EmbeddedResource>
@@ -134,6 +149,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Switch_Case\Reyon.resx">
       <DependentUpon>Reyon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Try_Catch\Toplama.resx">
+      <DependentUpon>Toplama.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
